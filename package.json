@@ -4,7 +4,30 @@
   "dependencies": {
     "body-parser": "1.18.2",
     "express": "4.16.3",
-    "express-static": "1.2.5",
+    "express-static": "^1.2.6",
+    "node": "^15.10.0",
+    "save": "^2.4.0",
     "web-push": "3.3.0"
-  }
+  },
+  "description": "\"Hello, World\" with web push in Node.js",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bentsanghoilun/web-push-demo.git"
+  },
+  "keywords": [
+    "web",
+    "push",
+    "notification"
+  ],
+  "author": "Ben Tsang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bentsanghoilun/web-push-demo/issues"
+  },
+  "homepage": "https://github.com/bentsanghoilun/web-push-demo#readme"
 }
